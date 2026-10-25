@@ -1,0 +1,117 @@
+@font-face {
+  font-family: title;
+  src: url(static/Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: text;
+  src: url(static/Merriweather_120pt-Regular.ttf);
+}
+
+.container {
+  background-color: white;
+  padding: 1em;
+  max-width: 62.5em;
+  margin: 3.75em auto;
+  border-radius: 5em;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  margin: 1.25em auto;
+  max-width: 35em;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: title;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: rgba(137, 255, 0, 0.24);
+}
+
+* {
+  font-family: text;
+
+}
+
+table {
+
+  border-collapse: collapse;
+  width: 75%;
+
+}
+
+td,
+th {
+  border: 1px solid greenyellow;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(137, 255, 0, 0.24);
+
+}
+
+:link {
+  color: rgb(95, 178, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(45, 85, 0);
+  background-color: transparent;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+p {
+  margin: 1.25em auto;
+  max-width: 35em;
+  font-family: text;
+}
+
+a:hover {
+  color: darkolivegreen;
+}
+
+.erscheinenFazit {
+  opacity: 0;
+  transition: 0.3s;
+  transition-delay: 1s;
+}
+
+.erscheinungsKnopfFazit:hover .erscheinenFazit {
+  opacity: 1;
+}
+
+.erscheinenBaum {
+  opacity: 0;
+  transition: 0.3s;
+  transition-delay: 1s;
+}
+
+.erscheinenKnopfSorbus:hover .erscheinenBaum {
+  opacity: 1;
+}
+
+.endLink:hover {
+  transition: 1s;
+  color: black;
+}
+
+img {
+  opacity: 0.5;
+  transition: 0.5;
+}

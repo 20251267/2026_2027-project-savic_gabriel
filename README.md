@@ -8,5 +8,5 @@ Gabriel Savic
 ## Lebenslauf
 
 
-![Lebenslauf](Lebenslauf.png)
+![Lebenslauf](Lebenslauf/Lebenslauf.png)
 
